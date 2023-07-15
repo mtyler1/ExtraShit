@@ -1519,7 +1519,7 @@ local serializer = SerializerModule()
 
 local function init()
 	local startup = {
-		API = afetchAPI(),
+		API = fetchAPI(),
 		WriteFile = writefile,
 		GetNilInstances = nil,
 		OldIndex = oldindex
